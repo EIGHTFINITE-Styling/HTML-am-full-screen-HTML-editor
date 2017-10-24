@@ -1,0 +1,19 @@
+@-moz-document url(http://www.html.am/html-editors/online-html-editor.cfm) {
+#header, #wrap>.l-unit-x, #footerblurb, #footer, #sidebar, #contentbar>.article>*:not(#cke_editor1) {
+    display: none !important;
+}
+
+#cke_editor1{
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    border: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+}
+
+#cke_1_contents {
+    height: calc(100vh - 135px) !important;
+}
+}
